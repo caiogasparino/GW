@@ -1,0 +1,11 @@
+C:\Users\user\Projeto\GW\bin\Debug\netcoreapp2.2\GW.deps.json
+C:\Users\user\Projeto\GW\bin\Debug\netcoreapp2.2\GW.runtimeconfig.json
+C:\Users\user\Projeto\GW\bin\Debug\netcoreapp2.2\GW.runtimeconfig.dev.json
+C:\Users\user\Projeto\GW\bin\Debug\netcoreapp2.2\GW.dll
+C:\Users\user\Projeto\GW\bin\Debug\netcoreapp2.2\GW.pdb
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.csprojAssemblyReference.cache
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.csproj.CoreCompileInputs.cache
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.AssemblyInfoInputs.cache
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.AssemblyInfo.cs
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.dll
+C:\Users\user\Projeto\GW\obj\Debug\netcoreapp2.2\GW.pdb
