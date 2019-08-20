@@ -57,36 +57,73 @@
 
 // Questao 3
 
-using System;
-using System.IO;
+// using System;
+// using System.IO;
 
-class Test 
-{
-    public static void Main() 
-    {
-        // Specify the directory you want to manipulate.
-        string path = @"C:\Users\user\Projeto\GW\Teste3";
+// class Test 
+// {
+//     public static void Main() 
+//     {
+//         // Specify the directory you want to manipulate.
+//         string path = @"C:\Users\user\Projeto\GW\Teste3";
 
-        try 
-        {
-            // Determine whether the directory exists.
-            if (Directory.Exists(path)) 
-            {
-                Console.WriteLine("That path exists already.");
-                return;
-            }
+//         try 
+//         {
+//             // Determine whether the directory exists.
+//             if (Directory.Exists(path)) 
+//             {
+//                 Console.WriteLine("That path exists already.");
+//                 return;
+//             }
 
-            // Try to create the directory.
-            DirectoryInfo di = Directory.CreateDirectory(path);
-            Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path));
+//             // Try to create the directory.
+//             DirectoryInfo di = Directory.CreateDirectory(path);
+//             Console.WriteLine("The directory was created successfully at {0}.", Directory.GetCreationTime(path));
             
 
-        } 
-        catch (Exception e) 
-        {
-            Console.WriteLine("The process failed: {0}", e.ToString());
-        } 
-        finally {}
-    }
+//         } 
+//         catch (Exception e) 
+//         {
+//             Console.WriteLine("The process failed: {0}", e.ToString());
+//         } 
+//         finally {}
+//     }
     
-}
+// }
+
+// public class SimpleFileCopy
+// {
+//     static void Main()
+//     {
+//         string fileName = "imagem.jpg";
+//         string sourcePath = @"C:\Users\user\Projeto\GW\Teste3";
+//         string targetPath =  @"C:\Users\user\Projeto\GW\Teste3\SubDir";
+
+//         string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
+//         string destFile = System.IO.Path.Combine(targetPath, fileName);
+
+//         System.IO.Directory.CreateDirectory(targetPath);
+//         System.IO.File.Copy(sourceFile, destFile, true);
+        
+//         if (System.IO.Directory.Exists(sourcePath))
+//         {
+//             string[] files = System.IO.Directory.GetFiles(sourcePath);
+
+           
+//             foreach (string s in files)
+//             {
+               
+//                 fileName = System.IO.Path.GetFileName(s);
+//                 destFile = System.IO.Path.Combine(targetPath, fileName);
+//                 System.IO.File.Copy(s, destFile, true);
+//             }
+//         }
+//         else
+//         {
+//             Console.WriteLine("Source path does not exist!");
+//         }
+
+//         Console.WriteLine("Press any key to exit.");
+//         Console.ReadKey();
+//     }
+// }
